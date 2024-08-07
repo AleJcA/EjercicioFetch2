@@ -1,0 +1,23 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 18rem;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.title{
+    text-align: center;
+}
